@@ -25,3 +25,10 @@ After transform the data with Data Augmentation i repeated the 100 epoch trainin
 **Custom Learning Rate**
 
 Just with one model, I Used a callbackl function to modify the learning rate in every epoch. After a first execution choose a learning rate and use it for a second 100 epochs traing. As i've been using an Adam optimizer the learning rate isn't crucial, but as a aexperiment it was easy to do, and improved the results a little bit. 
+
+[IMAGERecog.ipynb](https://github.com/oopere/TensorFlowCertification/blob/main/IMAGERecog.ipynb)
+Binary classification problem using the cat & dogs dataset. 
+
+Two different convolutiona models executed with and without Data Augmentation. 
+
+Two different samples of Transfer learning with Inceptionv3 and VGG16. 
